@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\about;
+use App\Http\Controllers\AdminLoginController;
 use App\Http\Controllers\AutogasController;
 use App\Http\Controllers\BoardOfDirectorsController;
 use App\Http\Controllers\BulkController;
@@ -43,7 +44,10 @@ Route::get('/autogas', [AutogasController::class, 'index'])->name('autogas');
 // Distribution route using controller
 Route::get('/distribution', [DistributionController::class, 'index'])->name('distribution');
 
-// Contact route using controller
+// Distribution route using controller
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+
+// Contact route using controller
+Route::get('/admin-login', [AdminLoginController::class, 'index'])->name('admin-login');
 
 
