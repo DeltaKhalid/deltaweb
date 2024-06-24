@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\about;
+use App\Http\Controllers\AdminLogin2Controller;
 use App\Http\Controllers\AdminLoginController;
 use App\Http\Controllers\AutogasController;
 use App\Http\Controllers\BoardOfDirectorsController;
@@ -14,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 // routes/web.php
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AdminController;
 
 // Home route
 Route::get('/', function () {
@@ -47,7 +49,13 @@ Route::get('/distribution', [DistributionController::class, 'index'])->name('dis
 // Distribution route using controller
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
-// Contact route using controller
+// Admin Login route using controller
 Route::get('/admin-login', [AdminLoginController::class, 'index'])->name('admin-login');
+
+// Admin Login route using controller
+Route::get('/admin-login2', [AdminLogin2Controller::class, 'index'])->name('admin-login2');
+
+// Admin Login route using controller
+Route::get('/admin', [AdminController::class, 'index'])->name('admin');
 
 
