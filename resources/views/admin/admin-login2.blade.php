@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
+    <!--<link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">-->
 
 
     <link rel="stylesheet" href="{{ asset('adminasset/css/font-awesome.css') }}" />
