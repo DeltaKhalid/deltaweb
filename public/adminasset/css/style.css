@@ -261,6 +261,53 @@ body.dark-only.box-layout {
 /**=====================
     1.1 Reset CSS start
 ==========================**/
+
+/**================== Empty Space ======*/
+.empty_space_30 {
+  height: 30px;
+}
+
+.empty_space_100 {
+  height: 100px;
+}
+
+.empty_space_300 {
+  height: 300px;
+}
+
+
+/*=== home dashboard ===*/
+.dashboard_body {
+  margin-left: 100px;
+}
+.card_dashboard_body {
+  margin-bottom: 30px;
+  border: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.header_title_default_dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
 .f-light {
   color: rgba(155, 155, 155, 0.8);
 }
@@ -37023,6 +37070,7 @@ body[class*=dark-] .for-light {
   border-radius: 8px;
   padding: 10px;
   background-color: #fff;
+  display: none;
 }
 .customizer-links.open {
   right: 330px;
@@ -40694,6 +40742,7 @@ footer p .footer-icon {
   top: 14px;
   display: block;
   font-size: 18px;
+  margin-top: 7px;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .according-menu i {
   vertical-align: middle;
