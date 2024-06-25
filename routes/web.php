@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 // routes/web.php
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\DashboardController;
 
 // Home route
 Route::get('/', function () {
@@ -57,5 +58,9 @@ Route::get('/admin-login2', [AdminLogin2Controller::class, 'index'])->name('admi
 
 // Admin Login route using controller
 Route::get('/admin', [AdminController::class, 'index'])->name('admin');
+//Route::get('/dashboard', [AdminController::class, 'dashboard']);
+Route::get('/dashboard', [DashboardController::class, 'index']);
+
+
 
 
