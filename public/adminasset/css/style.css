@@ -40233,10 +40233,12 @@ footer p .footer-icon {
   -webkit-box-shadow: 0 0 20px rgba(48, 126, 243, 0.1);
           box-shadow: 0 0 20px rgba(48, 126, 243, 0.1);
 }
+/*=== Sidebar headline fo menu color hasbeen changed ===*/
 .page-wrapper .sidebar-main-title h6 {
   font-size: 14px;
   font-weight: 600;
-  color: #307EF3;
+  /*color: #307EF3;*/
+  color: #FFFFFF;
   text-transform: uppercase;
   margin-bottom: 0;
   letter-spacing: 0.4px;
@@ -40281,13 +40283,15 @@ footer p .footer-icon {
 .page-wrapper.compact-wrapper .page-header .header-wrapper .toggle-sidebar {
   display: none;
 }
+/*=== Edit of sidebar BG color (999999) ===*/
 .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper {
   position: fixed;
   top: 0;
   z-index: 9;
   height: auto;
   line-height: inherit;
-  background: #36405E;
+  /*background: #36405E;*/
+  background: #2a9f88;;;
   width: 246px;
   text-align: left;
   -webkit-transition: 0.3s;
@@ -40295,10 +40299,12 @@ footer p .footer-icon {
   -webkit-box-shadow: 0 0 21px 0 rgba(89, 102, 122, 0.1);
           box-shadow: 0 0 21px 0 rgba(89, 102, 122, 0.1);
 }
+/*=== Dashboard sidebar head (logo area) BG color change ===*/
 .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .logo-wrapper,
 .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .logo-icon-wrapper {
   padding: 18px 18px;
-  background-color: #4F5875;
+  /*background-color: #4F5875;*/
+  background-color: #D2B8B85C;
   -webkit-box-shadow: -9px 0 20px rgba(89, 102, 122, 0.1);
           box-shadow: -9px 0 20px rgba(89, 102, 122, 0.1);
 }
@@ -40426,8 +40432,9 @@ footer p .footer-icon {
   visibility: hidden;
   position: absolute;
   top: 22px;
-  right: 50px;
-  color: #307EF3;
+  right: 10px;
+  /*color: #307EF3;*/
+  color: #000;
 }
 [dir=rtl] .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-list i.fa-thumb-tack {
   left: 50px;

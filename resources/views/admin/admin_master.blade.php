@@ -4,11 +4,11 @@
 
 <body> 
     <!-- loader starts-->
-    <!--<div class="loader-wrapper">
+    <div class="loader-wrapper">
       <div class="theme-loader">    
         <div class="loader-p"></div>
       </div>
-    </div>-->
+    </div>
     <!-- loader ends-->
 
     <div class="empty_space_100"></div>
@@ -696,7 +696,6 @@
 
     <div class="page-wrapper compact-wrapper" id="pageWrapper">
       <!-- Page Header Start-->
-
       <div class="page-header">
         <div class="header-wrapper row m-0">
 
@@ -1016,32 +1015,142 @@
                       <h6 class="lan-1">General</h6>
                     </div>
                   </li>
-                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
+                  <!-- ========================================= Dashboard Main Menu ========================== -->
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="landing-page.html">
                       <svg class="stroke-icon">
-                        <use href="adminasset/svg/icon-sprite.svg#stroke-home"></use>
+                        <use href="adminasset/svg/icon-sprite.svg#fill-home"></use>
                       </svg>
                       <svg class="fill-icon">
                         <use href="adminasset/svg/icon-sprite.svg#fill-home"></use>
-                      </svg><span class="lan-3">Dashboard</span></a>
-                    <ul class="sidebar-submenu">
+                      </svg><span>Dashboard</span></a></li>
+
+                  <!--<li class="sidebar-list"> <i class="fa fa-thumb-tack"> </i> <a class="sidebar-link sidebar-title" href="#">
+                      <!--<svg class="stroke-icon">
+                        <!--<use href="adminasset/svg/icon-sprite.svg#stroke-home"></use>-->
+                      <!--</svg>
+                      <!--<svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-home"></use>
+                      </svg><span class="lan-3">Dashboard</span></a>-->
+
+                    <!--<ul class="sidebar-submenu">
                       <li><a class="lan-4" href="index.html">Default</a></li>
                       <li><a class="lan-5" href="dashboard-02.html">Ecommerce</a></li>
                       <li><a href="dashboard-03.html">Project</a></li>
-                    </ul>
+                    </ul>-->
+
+                  <!--</li>-->
+                  <!-- ========================================= Pages Menu 999999 ===================================== -->
+                   <!-- ===================================================== Pages Link side menu ========================================= -->
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6>Pages</h6>
+                    </div>
                   </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="landing-page.html">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-landing-page"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-landing-page"></use>
+                      </svg><span>Home</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="landing-page.html">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-landing-page"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-landing-page"></use>
+                      </svg><span>About</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="sample-page.html">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-sample-page"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-sample-page"></use>
+                      </svg><span>Mission & Vision</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="translate.html">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-internationalization"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-internationalization"></use>
+                      </svg><span>Board of Directors</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="../starter-kit/index.html" target="_blank">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-starter-kit"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-starter-kit"></use>
+                      </svg><span>Distribution</span></a></li>
+                   <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="../starter-kit/index.html" target="_blank">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-starter-kit"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-starter-kit"></use>
+                      </svg><span>Contact</span></a></li>
+
+                    <!-- ===================================================== Products Page Link side menu ========================================= -->
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6>Products</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="landing-page.html">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-landing-page"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-landing-page"></use>
+                      </svg><span>Cylinder</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="sample-page.html">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-sample-page"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-sample-page"></use>
+                      </svg><span>Bulk</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="translate.html">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-internationalization"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-internationalization"></use>
+                      </svg><span>Reticulation</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="../starter-kit/index.html" target="_blank">
+                      <svg class="stroke-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#stroke-starter-kit"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="adminasset/svg/icon-sprite.svg#fill-starter-kit"></use>
+                      </svg><span>Autogas</span></a></li>
+
+
+                <!-- ======================================= Others Menu ============================================================ -->
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6>Others</h6>
+                    </div>
+                  </li>
+
                   <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
                       <svg class="stroke-icon">
                         <use href="adminasset/svg/icon-sprite.svg#stroke-widget"></use>
                       </svg>
                       <svg class="fill-icon">
                         <use href="adminasset/svg/icon-sprite.svg#fill-widget"></use>
-                      </svg><span class="lan-6">Manage 777</span></a>
+                      </svg>
+                      <!--<span class="lan-6">Manage 777</span></a>-->
+                      <span class="">Settings</span></a>
                     <ul class="sidebar-submenu">
-                      <li><a href="general-widget.html">Home Page</a></li>
-                      <li><a href="chart-widget.html">Chart</a></li>
+                      <!--<li><a href="general-widget.html">Home Page 6666</a></li>-->
+                      <li><a href="general-widget.html">Pasword Change</a></li>
+                      <li><a href="chart-widget.html">User Create</a></li>
                     </ul>
                   </li>
-                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
+
+
+                <!-- =============================== Not Need Side Menu ===================================================== -->
+                  <!--<li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
                       <svg class="stroke-icon">
                         <use href="adminasset/svg/icon-sprite.svg#stroke-layout"></use>
                       </svg>
@@ -1057,8 +1166,9 @@
                       <li><a href="footer-dark.html">Footer Dark</a></li>
                       <li><a href="footer-fixed.html">Footer Fixed</a></li>
                     </ul>
-                  </li>
-                  <li class="sidebar-main-title">
+                  </li>-->
+
+                  <!--<li class="sidebar-main-title">
                     <div>
                       <h6 class="lan-8">Applications</h6>
                     </div>
@@ -1399,8 +1509,9 @@
                       <li><a href="chart-peity.html">Peity Chart</a></li>
                       <li><a href="echarts.html">Echarts</a></li>
                     </ul>
-                  </li>
-                  <li class="sidebar-main-title">
+                  </li>-->
+<!-- ===================================================== Pages Link side menu ========================================= -->
+                  <!--<li class="sidebar-main-title">
                     <div>
                       <h6>Pages</h6>
                     </div>
@@ -1433,6 +1544,7 @@
                       <svg class="fill-icon">
                         <use href="adminasset/svg/icon-sprite.svg#fill-starter-kit"></use>
                       </svg><span>Starter kit</span></a></li>
+
                   <li class="mega-menu sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
                       <svg class="stroke-icon">
                         <use href="adminasset/svg/icon-sprite.svg#stroke-others"></use>
@@ -1617,8 +1729,12 @@
                       </svg>
                       <svg class="fill-icon">
                         <use href="adminasset/svg/icon-sprite.svg#fill-support-tickets"></use>
-                      </svg><span>Support Ticket</span></a></li>
+                      </svg><span>Support Ticket</span></a></li>-->
+                      <!-- ======================================== side menu edn ============================================================= -->
                 </ul>
+
+<!-- ======================================== side menu edn ============================================================= -->
+
               </div>
               <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
             </nav>
@@ -1656,14 +1772,14 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-6 p-0 footer-copyright">
-                <p class="mb-0">Copyright 2023 © Dunzo theme by pixelstrap.</p>
+                <p class="mb-0">© 2024 Delta LPG. All Rights Reserved.</p>
               </div>
               <div class="col-md-6 p-0">
-                <p class="heart mb-0">Hand crafted &amp; made with
+                <!--<p class="heart mb-0">Hand crafted &amp; made with
                   <svg class="footer-icon">
                     <use href="adminasset/svg/icon-sprite.svg#heart"></use>
                   </svg>
-                </p>
+                </p>-->
               </div>
             </div>
           </div>
