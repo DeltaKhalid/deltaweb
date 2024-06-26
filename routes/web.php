@@ -62,7 +62,7 @@ Route::get('/admin', [AdminController::class, 'index'])->name('admin');
 //Route::get('/dashboard', [AdminController::class, 'dashboard']);
 Route::get('/dashboard', [DashboardController::class, 'index']);
 
-Route::get('/admin_home_page', [AdminHomePageController::class, 'index']);
+Route::get('/admin_home_page', [AdminHomePageController::class, 'index'])->name('admin_home_page');
 
 
 

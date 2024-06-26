@@ -707,12 +707,12 @@
 
 
 <!-- ===================================================  Sidebar Menu Include ========================================================= -->
-      @include('admin.admin_page_sidebar')
+      @include('admin.admin_sidebar')
 
 
 
-        <!-- page body Container -->
-        <div class="page-body">
+        <!-- page body Container  999999 page body problem-->
+        <div class="">
           <div class="container-fluid">  
 
             <!--<div class="page-title">
@@ -735,6 +735,7 @@
 
           </div>
           <!-- Container-fluid starts-->
+          <div class="empty_space_300"></div>
 
           <!-- Container-fluid Ends-->
         </div>

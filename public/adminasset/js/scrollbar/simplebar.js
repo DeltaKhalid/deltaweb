@@ -5451,7 +5451,7 @@
 	    offset: 'simplebar-offset',
 	    mask: 'simplebar-mask',
 	    wrapper: 'simplebar-wrapper',
-	    placeholder: 'simplebar-placeholder',
+	    
 	    scrollbar: 'simplebar-scrollbar',
 	    track: 'simplebar-track',
 	    heightAutoObserverWrapperEl: 'simplebar-height-auto-observer-wrapper',

@@ -707,7 +707,7 @@
 
 
 <!-- ===================================================  Sidebar Menu Include ========================================================= -->
-      @include('admin.admin_page_sidebar')
+      @include('admin.admin_sidebar')
 
 
 
