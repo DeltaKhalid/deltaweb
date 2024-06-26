@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\about;
+use App\Http\Controllers\AdminHomePageController;
 use App\Http\Controllers\AdminLogin2Controller;
 use App\Http\Controllers\AdminLoginController;
 use App\Http\Controllers\AutogasController;
@@ -60,6 +61,9 @@ Route::get('/admin-login2', [AdminLogin2Controller::class, 'index'])->name('admi
 Route::get('/admin', [AdminController::class, 'index'])->name('admin');
 //Route::get('/dashboard', [AdminController::class, 'dashboard']);
 Route::get('/dashboard', [DashboardController::class, 'index']);
+
+Route::get('/admin_home_page', [AdminHomePageController::class, 'index']);
+
 
 
 

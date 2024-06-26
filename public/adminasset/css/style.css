@@ -39138,7 +39138,7 @@ footer p .footer-icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 16px 30px;
+  padding: 8px 30px;
   position: relative;
 }
 @media (max-width: 1550px) and (min-width: 1200px) {
@@ -40290,8 +40290,8 @@ footer p .footer-icon {
   z-index: 9;
   height: auto;
   line-height: inherit;
-  /*background: #36405E;*/
-  background: #2a9f88;;;
+  background: #36405E;
+  /*background: #2a9f88;*/
   width: 246px;
   text-align: left;
   -webkit-transition: 0.3s;
@@ -40303,8 +40303,8 @@ footer p .footer-icon {
 .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .logo-wrapper,
 .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .logo-icon-wrapper {
   padding: 18px 18px;
-  /*background-color: #4F5875;*/
-  background-color: #D2B8B85C;
+  background-color: #FFFFFF;
+  /*background-color: #D2B8B85C;*/
   -webkit-box-shadow: -9px 0 20px rgba(89, 102, 122, 0.1);
           box-shadow: -9px 0 20px rgba(89, 102, 122, 0.1);
 }
