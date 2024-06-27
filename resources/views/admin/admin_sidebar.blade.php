@@ -28,13 +28,17 @@
               </div>
             </li>
             <!-- ========================================= Dashboard Main Menu ========================== -->
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="landing-page.html">
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+              <a class="sidebar-link sidebar-title link-nav" 
+                 href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
                 <svg class="stroke-icon">
                   <use href="adminasset/svg/icon-sprite.svg#fill-home"></use>
                 </svg>
                 <svg class="fill-icon">
                   <use href="adminasset/svg/icon-sprite.svg#fill-home"></use>
-                </svg><span>Dashboard</span></a></li>
+                </svg><span>Dashboard</span>
+              </a>
+            </li>
 
             <!--<li class="sidebar-list"> <i class="fa fa-thumb-tack"> </i> <a class="sidebar-link sidebar-title" href="#">
                 <!--<svg class="stroke-icon">
@@ -62,7 +66,8 @@
                 <!--<a class="sidebar-link sidebar-title link-nav" href="landing-page.html">-->
                 <!--<a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'current' : '' }}">About</a>-->
                 <!--<a class="sidebar-link sidebar-title link-nav" href="{{ route('admin_home_page') }}" class="{{ request()->routeIs('index') }}"></a>-->
-              <a class="sidebar-link sidebar-title link-nav" href="{{ route('admin_home_page') }}" class="{{ request()->routeIs('admin_home_page') ? 'active' : '' }}">
+              <a class="sidebar-link sidebar-title link-nav" 
+                 href="{{ route('admin_home_page') }}" class="{{ request()->routeIs('admin_home_page') ? 'active' : '' }}">
                 <svg class="stroke-icon">
                   <use href="adminasset/svg/icon-sprite.svg#stroke-landing-page"></use>
                 </svg>

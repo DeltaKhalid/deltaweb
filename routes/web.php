@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\about;
+use App\Http\Controllers\AdminDashboardController;
 use App\Http\Controllers\AdminHomePageController;
 use App\Http\Controllers\AdminLogin2Controller;
 use App\Http\Controllers\AdminLoginController;
@@ -56,8 +57,10 @@ Route::get('/admin-login', [AdminLoginController::class, 'index'])->name('admin-
 
 // Admin Login route using controller
 Route::get('/admin', [AdminController::class, 'index'])->name('admin');
+
 //Route::get('/dashboard', [AdminController::class, 'dashboard']);
-Route::get('/dashboard', [DashboardController::class, 'index']);
+//Route::get('/dashboard', [AdminDashboardController::class, 'index']);
+Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
 
 Route::get('/admin_home_page', [AdminHomePageController::class, 'index'])->name('admin_home_page');
 
