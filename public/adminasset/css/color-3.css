@@ -3485,7 +3485,7 @@ pre {
 }
 
 .notify-alert .close {
-  color: #000;
+  color: #fff;
 }
 [dir=rtl] .notify-alert .close {
   right: unset !important;

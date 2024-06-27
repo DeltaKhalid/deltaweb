@@ -1,10 +1,14 @@
 <?php
 
 use App\Http\Controllers\about;
+use App\Http\Controllers\AdminAboutPageController;
+use App\Http\Controllers\AdminContactController;
 use App\Http\Controllers\AdminDashboardController;
+use App\Http\Controllers\AdminDistributionController;
 use App\Http\Controllers\AdminHomePageController;
 use App\Http\Controllers\AdminLogin2Controller;
 use App\Http\Controllers\AdminLoginController;
+use App\Http\Controllers\AdminMissionPageController;
 use App\Http\Controllers\AutogasController;
 use App\Http\Controllers\BoardOfDirectorsController;
 use App\Http\Controllers\BulkController;
@@ -17,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 // routes/web.php
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AdminBoardOfDirectorPageController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\DashboardController;
 
@@ -62,7 +67,23 @@ Route::get('/admin', [AdminController::class, 'index'])->name('admin');
 //Route::get('/dashboard', [AdminDashboardController::class, 'index']);
 Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
 
+// Admin Home page route using controller
 Route::get('/admin_home_page', [AdminHomePageController::class, 'index'])->name('admin_home_page');
+
+// Admin About page route using controller
+Route::get('/admin_about_page', [AdminAboutPageController::class, 'index'])->name('admin_about_page');
+
+// Admin Mission & Vision page route using controller
+Route::get('/admin_mission_page', [AdminMissionPageController::class, 'index'])->name('admin_mission_page');
+
+// Admin Mission & Vision page route using controller
+Route::get('/admin_board_of_director', [AdminBoardOfDirectorPageController::class, 'index'])->name('admin_board_of_director');
+
+// Admin Distribution page route using controller
+Route::get('/admin_distribution', [AdminDistributionController::class, 'index'])->name('admin_distribution');
+
+// Admin Distribution page route using controller
+Route::get('/admin_contact', [AdminContactController::class, 'index'])->name('admin_contact');
 
 
 

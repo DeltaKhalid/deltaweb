@@ -1,7 +1,6 @@
 <html>
 <!-- ================================================= css link ========================================== -->
 @include('admin.admincss')
-
 <body> 
     <!-- loader starts-->
     <div class="loader-wrapper">
@@ -19,7 +18,7 @@
             <div class="card-header card-no-border pb-0">
 
             <div class="header_title_default_dashboard">
-                <h4>Home Page</h4>
+                <h4>Board of Directors Page</h4>
                 <div class="dropdown icon-dropdown">
                 <!--<button class="btn dropdown-toggle" id="userdropdown5" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>-->
                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown5"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
@@ -765,6 +764,6 @@
 
 
 
-  </body>
-
+    </body>
+    <h1>Board of Director</h1>
 </html>

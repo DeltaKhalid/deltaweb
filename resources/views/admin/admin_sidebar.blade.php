@@ -62,6 +62,7 @@
                 <h6>Pages</h6>
               </div>
             </li>
+            <!-- Home Page Menu -->
             <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
                 <!--<a class="sidebar-link sidebar-title link-nav" href="landing-page.html">-->
                 <!--<a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'current' : '' }}">About</a>-->
@@ -76,45 +77,63 @@
                 </svg>
                 <span>Home</span>
               </a>
-              
-              
-              </li>
-
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="landing-page.html">
+            </li>
+            <!-- About Page Menu -->
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+              <a class="sidebar-link sidebar-title link-nav" 
+                 href="{{ route('admin_about_page') }}" class="{{ request()->routeIs('admin_about_page') ? 'active' : '' }}">
                 <svg class="stroke-icon">
                   <use href="adminasset/svg/icon-sprite.svg#stroke-landing-page"></use>
                 </svg>
                 <svg class="fill-icon">
                   <use href="adminasset/svg/icon-sprite.svg#fill-landing-page"></use>
-                </svg><span>About</span></a></li>
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="sample-page.html">
+                </svg><span>About</span></a>
+            </li>
+            <!-- Mission & Vision Page Menu -->
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                <a class="sidebar-link sidebar-title link-nav" 
+                   href="{{ route('admin_mission_page') }}" class="{{ request()->routeIs('admin_mission_page') ? 'active' : '' }}">
                 <svg class="stroke-icon">
                   <use href="adminasset/svg/icon-sprite.svg#stroke-sample-page"></use>
                 </svg>
                 <svg class="fill-icon">
                   <use href="adminasset/svg/icon-sprite.svg#fill-sample-page"></use>
-                </svg><span>Mission & Vision</span></a></li>
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="translate.html">
+                </svg><span>Mission & Vision</span></a>
+            </li>
+            <!-- Board of Director Page -->
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+              <a class="sidebar-link sidebar-title link-nav" 
+                 href="{{ route('admin_board_of_director') }}" class="{{ request()->routeIs('admin_board_of_director') ? 'active' : '' }}">
                 <svg class="stroke-icon">
                   <use href="adminasset/svg/icon-sprite.svg#stroke-internationalization"></use>
                 </svg>
                 <svg class="fill-icon">
                   <use href="adminasset/svg/icon-sprite.svg#fill-internationalization"></use>
-                </svg><span>Board of Directors</span></a></li>
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="../starter-kit/index.html" target="_blank">
+                </svg><span>Board of Directors</span></a>
+            </li>
+            <!-- Board of Director Page -->
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+              <a class="sidebar-link sidebar-title link-nav" 
+               href="{{ route('admin_distribution') }}" class="{{ request()->routeIs('admin_distribution') ? 'active' : '' }}">
                 <svg class="stroke-icon">
                   <use href="adminasset/svg/icon-sprite.svg#stroke-starter-kit"></use>
                 </svg>
                 <svg class="fill-icon">
                   <use href="adminasset/svg/icon-sprite.svg#fill-starter-kit"></use>
-                </svg><span>Distribution</span></a></li>
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="../starter-kit/index.html" target="_blank">
+                </svg><span>Distribution</span>
+              </a>
+            </li>
+            <!-- Contact Page -->
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+            <a class="sidebar-link sidebar-title link-nav" 
+               href="{{ route('admin_contact') }}" class="{{ request()->routeIs('admin_contact') ? 'active' : '' }}">
                 <svg class="stroke-icon">
                   <use href="adminasset/svg/icon-sprite.svg#stroke-starter-kit"></use>
                 </svg>
                 <svg class="fill-icon">
-                  <use href="adminasset/svg/icon-sprite.svg#fill-starter-kit"></use>
-                </svg><span>Contact</span></a></li>
+                  <use href="adminasset/svg/icon-sprite.svg#invoice"></use>
+                </svg><span>Contact</span></a>
+            </li>
 
               <!-- ===================================================== Products Page Link side menu ========================================= -->
             <li class="sidebar-main-title">
