@@ -39,7 +39,8 @@
                 </li>
                 </ul>
                 <ul class="header-left"> 
-                <li class="onhover-dropdown"><span class="f-w-500">
+
+                <!--<li class="onhover-dropdown"><span class="f-w-500">
                     <svg>
                         <use href="adminasset/svg/icon-sprite.svg#fill-bonus"></use>
                     </svg>Bonus Ui</span>
@@ -63,8 +64,9 @@
                     <li><a href="dragable-card.html">Draggable Card</a></li>
                     <li><a href="timeline-v-1.html">Timeline</a></li>
                     </ul>
-                </li>
-                <li class="onhover-dropdown"><span class="f-w-500">
+                </li>-->
+
+                <!--<li class="onhover-dropdown"><span class="f-w-500">
                     <svg>
                         <use href="adminasset/svg/icon-sprite.svg#fill-Grid"></use>
                     </svg>Level Menu</span>
@@ -81,17 +83,19 @@
                     <li><a href="checkout.html">Checkout</a></li>
                     <li><a href="pricing.html">Pricing  </a></li>
                     </ul>
-                </li>
-                <li class="onhover-dropdown"> <span class="f-w-500">
+                </li>-->
+
+                <!--<li class="onhover-dropdown"> <span class="f-w-500">
                     <svg>
                         <use href="adminasset/svg/icon-sprite.svg#fill-Perk-Ui"></use>
-                    </svg>Project</span>
+                    </svg>Project 888</span>
                     <ul class="onhover-show-div left-dropdown">
                     <li><a href="projects.html">Project List</a></li>
                     <li><a href="projectcreate.html">Create new</a></li>
                     </ul>
-                </li>
-                <li class="onhover-dropdown p-0"><span class="f-w-500">
+                </li>-->
+
+                <!--<li class="onhover-dropdown p-0"><span class="f-w-500">
                     <svg>
                         <use href="adminasset/svg/icon-sprite.svg#fill-bonus"></use>
                     </svg>Blog</span>
@@ -100,7 +104,8 @@
                     <li><a href="blog-single.html">Blog Single</a></li>
                     <li><a href="add-post.html">Add Post</a></li>
                     </ul>
-                </li>
+                </li>-->
+
                 </ul>
             </div>
             </div>
@@ -116,6 +121,7 @@
                     <input type="text" placeholder="Search here...">
                 </div>
                 </li>
+                <!-- ====================================================== Search Area ==================================================== -->
                 <li>
                 <div class="form-group w-100">
                     <div class="Typeahead Typeahead--twitterUsers">
@@ -123,37 +129,41 @@
                         <svg class="search-bg svg-color me-2">
                         <use href="adminasset/svg/icon-sprite.svg#fill-search"></use>
                         </svg>
-                        <input class="demo-input py-0 Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Dunzo .." name="q" title="">
+                        <input class="demo-input py-0 Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search  ..." name="q" title="">
                     </div>
                     </div>
                 </div>
                 </li>
+                <!-- ====================================================== Notification Area ============================================== -->
                 <li class="onhover-dropdown">
-                <div class="notification-box">
-                    <svg>
-                    <use href="adminasset/svg/icon-sprite.svg#fill-Bell"></use>
-                    </svg>
-                </div>
-                <div class="onhover-show-div notification-dropdown">
-                    <h6 class="f-18 mb-0 dropdown-title">Notitications                               </h6>
-                    <ul>
-                    <li class="b-l-primary bg-light-primary border-4 mt-3">
-                        <p class="font-primary">Delivery processing <span class="font-primary">10 min.</span></p>
-                    </li>
-                    <li class="b-l-secondary bg-light-secondary border-4 mt-3">
-                        <p class="font-secondary">Order Complete<span class="font-secondary">1 hr</span></p>
-                    </li>
-                    <li class="b-l-success bg-light-success border-4 mt-3">
-                        <p class="font-success">Tickets Generated<span class="font-success">3 hr</span></p>
-                    </li>
-                    <li class="b-l-info bg-light-info border-4 mt-3">
-                        <p class="font-info">Delivery Complete<span class="font-info">6 hr</span></p>
-                    </li>
-                    <li><a class="f-w-700" href="private-chat.html">Check all</a></li>
-                    </ul>
-                </div>
+                    <div class="notification-box">
+                        <svg>
+                        <use href="adminasset/svg/icon-sprite.svg#fill-Bell"></use>
+                        </svg>
+                    </div>
+
+                    <div class="onhover-show-div notification-dropdown">
+                        <h6 class="f-18 mb-0 dropdown-title">Notitications</h6>
+                        <ul>
+                        <li class="b-l-primary bg-light-primary border-4 mt-3">
+                            <p class="font-primary">Delivery processing <span class="font-primary">10 min.</span></p>
+                        </li>
+                        <li class="b-l-secondary bg-light-secondary border-4 mt-3">
+                            <p class="font-secondary">Order Complete<span class="font-secondary">1 hr</span></p>
+                        </li>
+                        <li class="b-l-success bg-light-success border-4 mt-3">
+                            <p class="font-success">Tickets Generated<span class="font-success">3 hr</span></p>
+                        </li>
+                        <li class="b-l-info bg-light-info border-4 mt-3">
+                            <p class="font-info">Delivery Complete<span class="font-info">6 hr</span></p>
+                        </li>
+                        <li><a class="f-w-700" href="private-chat.html">Check all</a></li>
+                        </ul>
+                    </div>
+
                 </li>
-                <li class="onhover-dropdown">
+                <!-- ====================================================== BookMark Area ==================================================== -->
+                <!--<li class="onhover-dropdown">
                 <svg>
                     <use href="adminasset/svg/icon-sprite.svg#fill-star"></use>
                 </svg>
@@ -198,8 +208,9 @@
                     </div>
                     </div>
                 </div>
-                </li>
-                <li class="cart-nav onhover-dropdown">
+                </li>-->
+                <!-- ====================================================== Cart Area ==================================================== -->
+                <!--<li class="cart-nav onhover-dropdown">
                 <div class="cart-box">
                     <svg>
                     <use href="adminasset/svg/icon-sprite.svg#fill-Buy"></use>
@@ -230,7 +241,8 @@
                     <li><a class="view-cart" href="cart.html">View Cart</a><a class="view-checkout f-right" href="checkout.html">Checkout</a></li>
                     </ul>
                 </div>
-                </li>
+                </li>-->
+                <!-- ====================================================== Massage Area ==================================================== -->
                 <li class="onhover-dropdown">
                 <div class="message">
                     <svg>
@@ -274,13 +286,15 @@
                     </ul>
                 </div>
                 </li>
-                <li>
+                <!-- ====================================================== Others Icon Area ==================================================== -->
+                <!--<li>
                 <div class="mode">
                     <svg>
                     <use href="adminasset/svg/icon-sprite.svg#fill-dark"></use>
                     </svg>
                 </div>
-                </li>
+                </li>-->
+                <!-- ====================================================== Login or Logout Icon Area =========================================== -->
                 <li class="profile-nav onhover-dropdown p-0">
                 <div class="d-flex align-items-center profile-media"><img class="b-r-10 img-40" src="adminasset/images/dashboard/profile.png" alt="">
                     <div class="flex-grow-1"><span>Helen Walter</span>
@@ -289,10 +303,10 @@
                 </div>
                 <ul class="profile-dropdown onhover-show-div">
                     <li><a href="user-profile.html"><i data-feather="user"></i><span>Account </span></a></li>
-                    <li><a href="email-application.html"><i data-feather="mail"></i><span>Inbox</span></a></li>
-                    <li><a href="task.html"><i data-feather="file-text"></i><span>Taskboard</span></a></li>
+                    <!--<li><a href="email-application.html"><i data-feather="mail"></i><span>Inbox</span></a></li>-->
+                    <!--<li><a href="task.html"><i data-feather="file-text"></i><span>Taskboard</span></a></li>-->
                     <li><a href="edit-profile.html"><i data-feather="settings"></i><span>Settings</span></a></li>
-                    <li><a href="login.html"><i data-feather="log-in"> </i><span>Log in</span></a></li>
+                    <li><a href="login.html"><i data-feather="log-in"> </i><span>Log Out</span></a></li>
                 </ul>
                 </li>
             </ul>

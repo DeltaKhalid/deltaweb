@@ -55,9 +55,6 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/admin-login', [AdminLoginController::class, 'index'])->name('admin-login');
 
 // Admin Login route using controller
-Route::get('/admin-login2', [AdminLogin2Controller::class, 'index'])->name('admin-login2');
-
-// Admin Login route using controller
 Route::get('/admin', [AdminController::class, 'index'])->name('admin');
 //Route::get('/dashboard', [AdminController::class, 'dashboard']);
 Route::get('/dashboard', [DashboardController::class, 'index']);

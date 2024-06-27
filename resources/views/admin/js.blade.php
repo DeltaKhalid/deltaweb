@@ -3,8 +3,6 @@
     <!-- This is the new script inclusion -->
     <script src="{{ asset('adminasset/js/jquery.min.js') }}"></script>
 
-
-
     <!-- latest jquery-->
     <script src="{{ asset('adminasset/js/jquery.min.js') }}"></script>
     <!-- Bootstrap js-->

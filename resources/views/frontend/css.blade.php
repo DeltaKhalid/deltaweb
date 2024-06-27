@@ -43,5 +43,10 @@
     <link rel="stylesheet" href="{{ asset('assets/css/roofsie.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/roofsie-responsive.css') }}" />
 
+    <!-- old code -->
+    <!--<link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />-->
+
 
 </head>
