@@ -3950,11 +3950,13 @@ table tbody tr {
 .notify-alert .close {
   background: unset;
   border: none;
-  font-size: 25px;
+  font-size: 15px;
+  margin-bottom: 30px;
 }
 [dir=rtl] .notify-alert .close {
   right: unset !important;
   left: 10px !important;
+  
 }
 .notify-alert.alert-light .close {
   color: #363636;

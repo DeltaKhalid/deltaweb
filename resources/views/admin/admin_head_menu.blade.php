@@ -243,7 +243,7 @@
                 </div>
                 </li>-->
                 <!-- ====================================================== Massage Area ==================================================== -->
-                <li class="onhover-dropdown">
+                <!--<li class="onhover-dropdown">
                 <div class="message">
                     <svg>
                     <use href="adminasset/svg/icon-sprite.svg#fill-message"></use>
@@ -285,7 +285,7 @@
                     <li><a class="f-w-700" href="email-application.html">Check all</a></li>
                     </ul>
                 </div>
-                </li>
+                </li>-->
                 <!-- ====================================================== Others Icon Area ==================================================== -->
                 <!--<li>
                 <div class="mode">
