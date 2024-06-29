@@ -26,4 +26,13 @@
     );
   }, 1000);
 })(jQuery);
+
+*** css of cross icon, line 3950
+.notify-alert .close {
+  background: unset;
+  border: none;
+  font-size: 15px;
+  bottom: 10px !important;
+}
+
 -->
